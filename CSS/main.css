@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+margin: auto;
+
+}
+header{
+           background: rgb(9, 2, 48);
+           text-align: center;
+           margin: 20px;
+           border-bottom: solid 8px #494a47;
+           padding: 50px;
+        }
+
+        h1{
+            font-family: "Winky Rough", sans-serif;
+            font-size: 50px;     
+          }
+          h2{
+            font-family: "Winky Rough", sans-serif;
+          }
+       p{
+
+        color :brown;
+        font-family: "Winky Rough", sans-serif;
+       }
+       
+       #foto-perfil{
+            width: 300px;
+            border-radius: 45px;
+            float: right;
+       }

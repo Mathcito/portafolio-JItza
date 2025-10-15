@@ -6,6 +6,10 @@
 
 }
 
+body {
+  font-family: "Winky Rough", sans-serif;
+}
+
 header {
   background: rgb(9, 2, 48);
   text-align: center;
@@ -26,8 +30,36 @@ h3 {
 
 p {
 
-  color: brown;
+  color: rgb(0, 0, 0);
   font-family: "Winky Rough", sans-serif;
+}
+
+.big {
+  color: rgb(6, 6, 6)
+}
+
+#menu-principal {
+  list-style-type: none;
+  display: flex;
+}
+
+nav {
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+#menu-principal {
+  text-decoration: none;
+  color: bisque;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+#menu-principal a:hover {
+  color: aliceblue;
+  background-color: rgb(39, 94, 76);
+
 }
 
 #foto-perfil {
@@ -51,8 +83,11 @@ section {
   text-align: center;
 }
 
+#lista-proyectos {
+  display: flex;
+}
+
 .proyecto {
-  float: left;
   width: 33%;
   margin-top: 20px;
 }
@@ -90,14 +125,43 @@ progress {
 
 .lista-tecnologicas {
   list-style: none;
-  display: grid;
+  display: flex;
   margin-left: 0;
   gap: 15px;
 }
-.lista-tecnologicas li{
+
+.lista-tecnologicas li {
   background-color: rgb(21, 141, 246);
   color: #5a3e3e;
   padding: 12px 20 px;
   border-radius: 25px;
   text-align: center;
+}
+
+#contacto {
+  padding: 40px;
+}
+  .campos {
+    width: 70px;
+    clear: both;
+    font-size: 28px;
+  
+}
+.campos label{
+  padding-right: 20px;
+}
+.campos input{
+  padding: 10px;
+  border: solid 2px chocolate;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  overflow: hidden;
+  padding: 40px 0;
+  background-color: beige;
+  text-align: center;
+  border-top: solid 5px chocolate;
 }

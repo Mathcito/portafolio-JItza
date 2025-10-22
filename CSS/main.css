@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: rgb(9, 2, 48);
+  background: rgb(150, 91, 47);
   text-align: center;
   margin: 20px;
   border-bottom: solid 8px #494a47;
@@ -30,12 +30,12 @@ h3 {
 
 p {
 
-  color: rgb(0, 0, 0);
+  color: rgb(248, 248, 248);
   font-family: "Winky Rough", sans-serif;
 }
 
 .big {
-  color: rgb(6, 6, 6)
+  color: rgb(243, 240, 240)
 }
 
 #menu-principal {
@@ -60,7 +60,7 @@ nav {
 
 #menu-principal a {
   text-decoration: none;
-  color: rgb(6, 6, 6);
+  color: rgb(12, 12, 12);
   font-size: 25px;
   font-weight: bolder;
   padding: 8px;
